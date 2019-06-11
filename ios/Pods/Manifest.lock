@@ -1,0 +1,111 @@
+PODS:
+  - BVLinearGradient (2.5.4):
+    - React
+  - React (0.59.5):
+    - React/Core (= 0.59.5)
+  - react-native-locale (0.0.19):
+    - React
+  - react-native-slider (1.0.4):
+    - React
+  - react-native-splash-screen (3.2.0):
+    - React
+  - React/Core (0.59.5):
+    - yoga (= 0.59.5.React)
+  - React/fishhook (0.59.5)
+  - React/RCTActionSheet (0.59.5):
+    - React/Core
+  - React/RCTAnimation (0.59.5):
+    - React/Core
+  - React/RCTBlob (0.59.5):
+    - React/Core
+  - React/RCTGeolocation (0.59.5):
+    - React/Core
+  - React/RCTImage (0.59.5):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.59.5):
+    - React/Core
+  - React/RCTNetwork (0.59.5):
+    - React/Core
+  - React/RCTSettings (0.59.5):
+    - React/Core
+  - React/RCTText (0.59.5):
+    - React/Core
+  - React/RCTVibration (0.59.5):
+    - React/Core
+  - React/RCTWebSocket (0.59.5):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNGestureHandler (1.2.1):
+    - React
+  - RNSound (0.10.12):
+    - React/Core
+    - RNSound/Core (= 0.10.12)
+  - RNSound/Core (0.10.12):
+    - React/Core
+  - RNSVG (9.4.0):
+    - React
+  - RNVectorIcons (6.4.2):
+    - React
+  - yoga (0.59.5.React)
+
+DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
+  - react-native-locale (from `../node_modules/react-native-locale`)
+  - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
+  - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNSound (from `../node_modules/react-native-sound`)
+  - RNSVG (from `../node_modules/react-native-svg`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: "../node_modules/react-native-linear-gradient"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-locale:
+    :path: "../node_modules/react-native-locale"
+  react-native-slider:
+    :path: "../node_modules/@react-native-community/slider"
+  react-native-splash-screen:
+    :path: "../node_modules/react-native-splash-screen"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNSound:
+    :path: "../node_modules/react-native-sound"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+SPEC CHECKSUMS:
+  BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
+  React: 90adac468c7b72bf1fa6c64bf230650f851a8388
+  react-native-locale: bd8edf0e51706d469af3e2fa568a8102213a3139
+  react-native-slider: f9e501d8ae01322ac4246c57c3655005269c8928
+  react-native-splash-screen: 200d11d188e2e78cea3ad319964f6142b6384865
+  RNGestureHandler: aea90f0ad8e35fec23438db6fc3ad79be58bb734
+  RNSound: a1d01988e043aed5dbb476c2152b5ffb02446750
+  RNSVG: 9cb6e958c4b6a1f58185ac72a350b148947d6fed
+  RNVectorIcons: 6607bd3a30291d0edb56f9bbe7ae411ee2b928b0
+  yoga: 2e571f113e8cbeb0eb752aeebc86c1bfe7a8200c
+
+PODFILE CHECKSUM: 34c230edebbf76aa617c7223d420340486859288
+
+COCOAPODS: 1.6.1

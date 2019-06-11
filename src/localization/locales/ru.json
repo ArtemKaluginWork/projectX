@@ -1,0 +1,38 @@
+{
+  "translations": {
+    "Create": "Создать",
+    "Create your currency": "Создайте свою валюту",
+    "I've shared": "Я поделился",
+    "To join a currency, use the link your person gives you": "Чтобы присоединиться к валюте, используйте ссылку, которую прислал ваш партнер.",
+    "Invite your person":"Пригласите своего партнера",
+    "Send your person some currency": "Отправьте своему партнеру немного {{currency}}, чтобы начать управление балансом\uD83D\uDC47",
+    "Change language": "Сменить язык",
+    "Give your currency a name": "Задайте имя своей валюте",
+    "And a shortcode": "И краткое обозначение",
+    "Your message": "Ваше сообщение",
+    "Send": "Отправить",
+    "It's fun to do this together": "Это интересно делать вместе\uD83D\uDE42",
+    "Tap to copy link": "Нажмите, чтобы скопировать ссылку",
+    "Please fill in all fields": "Пожалуйста, заполните все поля"
+  },
+  "theme": {
+    "Change theme": "Выбрать тему",
+    "defaultTheme": "Стандартная",
+    "swedish": "Українська",
+    "royal": "Королевская",
+    "lagoon": "Лагуна",
+    "dracula": "Дракула",
+    "alucard": "Алукард",
+    "ninja": "Ниндзя",
+    "mercury": "Ртуть",
+    "pride": "Прайд"
+  },
+  "sidemenu": {
+    "home": "Главная",
+    "send": "Отправить сообщение",
+    "settings": "Настройки",
+    "language": "Язык",
+    "version": "версия",
+    "build": "билд"
+  }
+}

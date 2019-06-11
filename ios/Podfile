@@ -1,0 +1,51 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ProjectX' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ProjectX
+  # this is very important to have!
+    rn_path = '../node_modules/react-native'
+    pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
+    pod 'React', path: rn_path, subspecs: [
+      'Core',
+      'RCTActionSheet',
+      'RCTAnimation',
+      'RCTGeolocation',
+      'RCTImage',
+      'RCTLinkingIOS',
+      'RCTNetwork',
+      'RCTSettings',
+      'RCTText',
+      'RCTVibration',
+      'RCTWebSocket'
+  ]
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  pod 'react-native-locale', :path => '../node_modules/react-native-locale'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNSound', :path => '../node_modules/react-native-sound'
+
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+end
+
+# very important to have, unless you removed React dependencies for Libraries
+# and you rely on Cocoapods to manage it
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == "React"
+      target.remove_from_project
+    end
+    targets_to_ignore = %w(React yoga)
+      if targets_to_ignore.include? target.name
+        target.remove_from_project
+    end
+  end
+end

@@ -1,0 +1,38 @@
+{
+  "translations": {
+    "Create": "Create",
+    "Create your currency": "Create your currency",
+    "I've shared": "I've shared",
+    "To join a currency, use the link your person gives you": "To join a currency, use the link your person gives you.",
+    "Invite your person":"Invite your person",
+    "Send your person some currency": "Send your person some {{currency}} to start building your balance\uD83D\uDC47",
+    "Change language": "Change language",
+    "Give your currency a name": "Give your currency a name",
+    "And a shortcode": "And a shortcode",
+    "Your message": "Your message",
+    "Send": "Send",
+    "It's fun to do this together": "It's fun to do this together\uD83D\uDE42",
+    "Tap to copy link": "Tap to copy link",
+    "Please fill in all fields": "Please fill in all fields"
+  },
+  "theme": {
+    "Change theme": "Change theme",
+    "defaultTheme": "Default",
+    "swedish": "Swedish",
+    "royal": "Royal",
+    "lagoon": "Lagoon",
+    "dracula": "Dracula",
+    "alucard": "Alucard",
+    "ninja": "Ninja",
+    "mercury": "Mercury",
+    "pride": "Pride"
+  },
+  "sidemenu": {
+    "home": "Home",
+    "send": "Send message",
+    "settings": "Settings",
+    "language": "Language",
+    "version": "version",
+    "build": "build"
+  }
+}
